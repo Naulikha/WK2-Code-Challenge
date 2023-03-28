@@ -1,0 +1,113 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  #menu {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: #555;
+    background-color: #f8f8f8;
+  }
+  
+  button[type="submit"],
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards li {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    overflow: hidden;
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .cards li:hover {
+    transform: scale(1.03);
+  }
+  
+  .cards li img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .cards li .content {
+    padding: 20px;
+  }
+  
+  .cards li h4 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .cards li p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .cards li .votes-count {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .cards li .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
